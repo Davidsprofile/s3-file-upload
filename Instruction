@@ -1,0 +1,9 @@
+Program is set locally, I haven't made web version. you point to the file which is located in your machine, no matter virtual or physical. 
+
+Usage:
+curl -X POST -F "file=@/path/to/your/file.jpg" http://localhost:8080/upload
+
+You should see file upload Successfully 
+File uploaded successfully: https://your-bucket-name.s3.your-region.amazonaws.com/your-file-name.jpg
+
+s3 bucket is open. 
